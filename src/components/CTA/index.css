@@ -1,0 +1,45 @@
+.cta-container{
+    display: flex;
+    width: 1240px;
+    padding: 116px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 32px;
+    background: #2B2730;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cta-heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+}
+.cta-para{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.cta-btn{
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 32px;
+    background: #FFB84C;
+    cursor: pointer;
+    outline:none;
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
