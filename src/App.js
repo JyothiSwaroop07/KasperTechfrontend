@@ -1,29 +1,8 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  useRoutes,
-} from "react-router-dom";
+import React from 'react'
+import LandingPage from './components/LandingPage/index'
 
-import './App.css';
+function App(){
+  return <LandingPage />
+}
 
-import Home from './components/Home';
-import Cover from './components/Cover';
-
-const App = () => {
-  let routes = useRoutes([
-    { path: "/", element: <Home /> },
-    { path: "/cover", element: <Cover /> },
-
-  ]);
-  return routes;
-};
-
-const AppWrapper = () => {
-  return (
-    <Router>
-      <App />
-    </Router>
-  );
-};
-
-export default AppWrapper;
+export default App;
